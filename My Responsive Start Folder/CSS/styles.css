@@ -332,8 +332,8 @@ body {
 }
 
 #headerWrapper {
-  background-color: #abc;
-  color: #001adb;
+  background-color: #f1f1f1;
+  color: #708238;
 }
 
 header {
@@ -350,7 +350,7 @@ header h1 {
 
 /* Fixed: #navWrapper is outside header */
 #navWrapper {
-  background-color: bisque;
+  background-color: #808069;
 }
 #navWrapper nav ul {
   list-style-type: none;
@@ -362,7 +362,7 @@ header h1 {
   flex: 1;
 }
 #navWrapper nav ul li.active {
-  background-color: blueviolet;
+  background-color: #A49893;
 }
 #navWrapper nav ul li a {
   display: block;
@@ -376,7 +376,7 @@ header h1 {
 }
 
 #footerWrapper {
-  background-color: cornsilk;
+  background-color: #f1f1f1;
 }
 
 footer {
@@ -387,6 +387,7 @@ footer p {
   font-weight: 300;
   text-align: center;
 }
+
 
 @media only screen and (min-width: 35rem) and (min-width: 35rem) {
   header {
