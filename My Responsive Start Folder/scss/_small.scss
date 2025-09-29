@@ -16,14 +16,25 @@ html {
 }
 
 body {
-  height: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
   font-family: $defaultFont; 
   font-weight: $normalWeight;
   color: $fontColor;
 }
 
+#mainWrapper {
+  flex: 1;
+}
+
+main{ 
+  padding: 1rem;
+}
+
 #headerWrapper {
-  background-color: #abc;
+  background-color: #f1f1f1;
   color: $secondaryColor; 
 }
 
@@ -40,9 +51,9 @@ header {
   }
 }
 
-/* Fixed: #navWrapper is outside header */
+
 #navWrapper {
-  background-color: bisque;
+  background-color: #808069;
 
   nav {
     ul {
@@ -55,7 +66,7 @@ header {
         flex: 1;
 
         &.active {
-          background-color: blueviolet;
+          background-color: #c2b5a8;
         }
 
         a {
@@ -76,7 +87,7 @@ header {
 
 //begin footer
 #footerWrapper {
-  background-color: cornsilk;
+  background-color: #f1f1f1;
 }
 footer {
   padding: 0.5rem $gutter;
@@ -86,4 +97,5 @@ footer {
     text-align: center;
   }
 }
+
 
